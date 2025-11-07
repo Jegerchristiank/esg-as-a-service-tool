@@ -12,7 +12,6 @@ Create internal configuration packages under `packages/config/*`:
 - `@org/tsconfig` – exports the current base compiler settings.
 - `@org/eslint-config` – provides a base TypeScript preset and a Next.js variant.
 - `@org/prettier-config` – supplies a repository-wide formatting profile.
-- `@org/jest-config` – placeholder for unified test configuration once Jest is required.
 
 Packages and the Next.js app now extend these shared configs. Root tooling (Prettier) consumes the same source of truth.
 
